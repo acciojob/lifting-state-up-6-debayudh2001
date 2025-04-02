@@ -5,7 +5,7 @@ const Parent = () => {
     const [todos, setTodos] = useState(["Learn Javascript", "Learn React", "Build a React App", "Deploy the React App"])
     
     function handleComplete(btn){
-        btn.current.style.display = "none"
+        btn.current.remove()
     }
 
     return (

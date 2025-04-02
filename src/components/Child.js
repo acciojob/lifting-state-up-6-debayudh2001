@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, {useRef} from "react";
 
 const Child = ({todos, handleComplete}) => {
     let btns = []
@@ -7,7 +7,7 @@ const Child = ({todos, handleComplete}) => {
         let btn = useRef(null)
         btns.push(btn)
     }
-
+    
     return (
         <div>
             <h2>Child Component</h2>
